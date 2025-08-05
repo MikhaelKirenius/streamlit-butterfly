@@ -7,7 +7,7 @@ import streamlit as st
 from PIL import Image
 
 profile_pic = Image.open("assets/profile.jpg")
-project_image1 = Image.open("assets/Project_RAG.jpg")
+project_image1 = Image.open("assets/Project_Rag.jpg")
 project_image2 = Image.open("assets/Project_NLP.jpg")
 project_image3 = Image.open("assets/Project_Clustering.jpg")
 
@@ -113,7 +113,7 @@ def show():
             st.write("**Project:** Customer Segmentation Using Clustering Algorithms.")
             st.markdown("[View Project](https://github.com/MikhaelKirenius/Customer-Segmentation-Clustering.git)")
 
-            
+
     st.write("---")
 
     with st.container():
